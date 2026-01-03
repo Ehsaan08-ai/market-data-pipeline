@@ -24,17 +24,12 @@ This project demonstrates an end-to-end data lifecycle. It features an autonomou
 - Dynamic Filtering: Built-in logic to handle high-variance assets (like Bitcoin) separately from traditional stocks for better visual clarity.
 
 🔧 Setup & Installation
+
 1.Clone the repo:
   git clone https://github.com/Ehsaan08-ai/market-data-pipeline.git
 
-1. Install dependencies:
+2. Install dependencies:
     pip install -r requirements.txt
-
-2. Database Configuration:
-
-   - Ensure MySQL is running.
-   - Create a database named market_tracker.
-   - Create a table stock_prices with columns: id, ticker, price, and timestamp.
 
 3. Database Configuration:
 
@@ -42,5 +37,12 @@ This project demonstrates an end-to-end data lifecycle. It features an autonomou
    - Create a database named market_tracker.
    - Create a table stock_prices with columns: id, ticker, price, and timestamp.
 
-4. Run the Python file:
+4. Database Configuration:
+
+   - Ensure MySQL is running.
+   - Create a database named market_tracker.
+   - Create a table stock_prices with columns: id, ticker, price, and timestamp.
+
+5. Run the Python file:
     - python index.py
+
