@@ -23,9 +23,9 @@ def connect_to_mysql():
     try:
         # 1. Establish the connection
         connection = mysql.connector.connect(
-        host='127.0.0.1',  
+        host='localhost',  
         user='root',       
-        password='Ehsaan@08', 
+        password='Your_Password', 
         port=3306,  
         database='market_tracker'
         )
@@ -53,4 +53,5 @@ def connect_to_mysql():
 while True:
     connect_to_mysql()
     print("Scrapping Complete! Sleeping for 10 Minutes.")
+
     time.sleep(600)
