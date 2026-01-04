@@ -11,8 +11,8 @@ This project demonstrates an end-to-end data lifecycle. It features an autonomou
 
 📁 Project Structure
 
-- harvester.py: The automation script that scrapes data and pushes to MySQL.
--analysis_dashboard.ipynb: Jupyter Notebook for data extraction and visualization.
+- index.py: The automation script that scrapes data and pushes to MySQL.
+- market_tracker.ipynb: Jupyter Notebook for data extraction and visualization.
 - requirements.txt: List of necessary Python libraries.
 
 🌟 Key Features
