@@ -8,6 +8,7 @@ This project demonstrates an end-to-end data lifecycle. It features an autonomou
 - Database: MySQL (Relational Data Storage)
 - Analysis: Pandas (Data Manipulation)
 - Visualization: Seaborn, Matplotlib (Time-Series Plotting)
+- Machine Learning Libraries (for stock price prediction) : Scikit - Learn (in progress)
 
 📁 Project Structure
 
@@ -45,4 +46,5 @@ This project demonstrates an end-to-end data lifecycle. It features an autonomou
 
 5. Run the Python file:
     - python index.py
+
 
