@@ -16,7 +16,8 @@ stocks_to_track = {
     "MSFT": "https://www.google.com/finance/quote/MSFT:NASDAQ",
     "TSLA": "https://www.google.com/finance/quote/TSLA:NASDAQ",
     "BTC":  "https://www.google.com/finance/quote/BTC-INR",
-    "GOLD": "https://www.google.com/finance/quote/GOLD:NYSE"
+    "GOLD": "https://www.google.com/finance/quote/GOLD:NYSE",
+    "NVDA": "https://www.google.com/finance/quote/NVDA:NASDAQ?hl=en"
 }
 
 #print(response.status_code)
